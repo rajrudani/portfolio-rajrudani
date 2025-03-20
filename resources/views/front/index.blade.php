@@ -11,9 +11,9 @@
             <div class="container" data-aos="zoom-out">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
-                        <h2>Raj Rudani</h2>
+                        <h2>{{ $personalData['name'] }}</h2>
                         <p>I'm 
-                            <span class="typed" data-typed-items="PHP Developer, Freelance Developer">Web Developer
+                            <span class="typed" data-typed-items="PHP Developer, Freelance Developer">{{ $personalData['job-title'] }}
                             </span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
                         </p>
                         <div class="social-links">
