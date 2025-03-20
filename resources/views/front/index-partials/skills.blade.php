@@ -33,7 +33,7 @@
         }
 
         .skill-icon img {
-            width: 75px;
+            width: 100px;
             height: 75px;
             object-fit: contain;
             transition: 0.3s ease-in-out;
@@ -87,8 +87,8 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-programming">Programming Languages</li>
-                <li data-filter=".filter-frameworks">Frameworks</li>
+                <li data-filter=".filter-programming">Coding Languages</li>
+                <li data-filter=".filter-frameworks">Frameworks | Libraries</li>
                 <li data-filter=".filter-databases">Databases</li>
                 <li data-filter=".filter-apis">Third Party APIs</li>
                 <li data-filter=".filter-other">Other</li>
@@ -99,7 +99,9 @@
                     <div class="col-md-2 col-sm-4 col-6 text-center portfolio-item isotope-item {{ $skill['filter'] }}">
                         <div class="skill-card">
                             <div class="skill-icon">
-                                <img src="{{ $skill['image'] }}" class="img-fluid" alt="{{ $skill['name'] }}">
+                                <img src="{{ $skill['image'] }}" class="img-fluid" alt="{{ $skill['name'] }}" @isset ($skill['width'])
+                                    style="width:{{ $skill['width'] }} !important;"
+                                @endisset >
                             </div>
                             {{-- <h6 class="skill-name">{{ $skill['name'] }}</h6> --}}
                             <div class="skill-overlay">

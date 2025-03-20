@@ -82,11 +82,11 @@
                             Additionally, I optimized database performance, developed APIs for mobile applications, and
                             ensured scalable, efficient backends to enhance user experience and operational efficiency
                         </li>
-                        <li>
+                        {{-- <li>
                             <strong>Skills Used:</strong>
                             PHP, Laravel, Codeigniter, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT,
                             REST APIs, API Development.
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
 
@@ -104,11 +104,11 @@
                             Skilled in leading projects, managing development teams, and delivering high-quality
                             solutions on time.
                         </li>
-                        <li>
+                        {{-- <li>
                             <strong>Skills Used:</strong>
                             PHP, Laravel, Codeigniter, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT, JIRA, ProofHub
                             REST APIs, API Development, CryptoAPI, Payment Gateway - Stripe, Moneris, Razorpay.
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
 
@@ -126,10 +126,10 @@
                             Collaborated with cross-functional teams to ensure seamless project execution and timely
                             delivery of high-quality solutions.
                         </li>
-                        <li>
+                        {{-- <li>
                             <strong>Skills Used:</strong>
                             PHP, SuiteCRM, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT, JIRA
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

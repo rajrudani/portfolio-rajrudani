@@ -13,14 +13,12 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 justify-content-center">
             <div class="col-lg-4">
-                <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                <img src="assets/img/profile-img3.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 content">
-                <h2>Raj Rudani - Web Developer</h2>
-                <p class="fst-italic py-3">
-                    {{-- Passionate and results-driven web developer with expertise in PHP, Laravel, and front-end technologies. Dedicated to building efficient, scalable, and user-friendly web applications. --}}
-                </p>
-                <div class="row">
+                <h2>Raj Rudani - Web Developer | PHP Developer</h2>
+                 
+                <div class="row mt-4">
                     <div class="col-lg-6">
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <strong>Birthdate:</strong> <span>{{ $personalData['birthdate'] }}</span></li>
@@ -30,6 +28,7 @@
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{{ $personalData['phone'] }}</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>{{ $personalData['location'] }}</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>English, Hindi, Gujarati</span></li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
