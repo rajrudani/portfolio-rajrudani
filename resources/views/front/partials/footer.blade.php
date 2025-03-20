@@ -1,6 +1,6 @@
 <footer id="footer" class="footer position-relative light-background">
     <div class="container">
-        <h3 class="sitename">Brandon Johnson</h3>
+        <h3 class="sitename">Raj Rudani</h3>
         <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
         </p>
         <div class="social-links d-flex justify-content-center">
@@ -25,7 +25,7 @@
         </div>
         <div class="container">
             <div class="copyright">
-                <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights
+                <span>Copyright</span> <strong class="px-1 sitename">Raj Rudani</strong> <span>All Rights
                     Reserved</span>
             </div>
             <div class="credits">

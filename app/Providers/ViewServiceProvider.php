@@ -25,7 +25,7 @@ class ViewServiceProvider extends ServiceProvider
                 'facebook' => 'dsad',
                 'twitter' => 'dsa',
                 'instagram' => 'dasd',
-                'linkedin' => 'dsa',
+                'linkedin' => 'https://www.linkedin.com/in/rajrudani',
                 'github' => 'sad',
                 'skype' => 'sad',
             ];
