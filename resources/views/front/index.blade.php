@@ -1,10 +1,7 @@
 @extends('front.layout')
 
 @section('content')
-    @include('front.index-partials.header')
-
     <main class="main">
-
         <!-- Hero Section -->
         <section id="hero" class="hero section light-background">
             <img src="assets/img/hero-img2.png" alt="">
@@ -300,6 +297,5 @@
             </div>
 
         </section><!-- /Contact Section -->
-
     </main>
 @endsection

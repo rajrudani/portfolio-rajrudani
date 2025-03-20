@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
+Route::get('portfolio/{company}', [IndexController::class, 'viewPortfolio'])->name('view-portfolio');
+

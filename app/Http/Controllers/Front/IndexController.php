@@ -14,6 +14,19 @@ class IndexController extends Controller
         return view('front.index', compact('skills'));
     }
 
+    public function viewPortfolio($company)
+    {
+        if($company == 'webbrains'){
+            return view('front.portfolio.webbrains');
+        
+        } else if($company == 'svaaapta'){
+            return view('front.portfolio.svaaapta');
+        
+        } if($company == 'freelance'){
+            return view('front.portfolio.freelance');
+        }
+    }
+
     public function getSkills ()
     {
         return [
