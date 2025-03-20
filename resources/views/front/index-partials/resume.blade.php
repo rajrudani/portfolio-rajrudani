@@ -1,5 +1,4 @@
 <section id="resume" class="resume section">
-
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
@@ -10,12 +9,9 @@
     </div><!-- End Section Title -->
 
     <div class="container">
-
         <div class="row">
-
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="resume-title">Sumary</h3>
-
                 <div class="resume-item pb-0">
                     <h4>{{ $personalData['name'] }}</h4>
                     <p><em>Innovative and deadline-driven Web Developer with over 4 years of experience designing,
@@ -23,18 +19,59 @@
                             into fully functional, high-performance digital solutions from concept to deployment.
                         </em></p>
                     <ul>
-                        <li>Gujrat, India.</li>
+                        <li>Gujarat, India.</li>
                         <li>{{ $personalData['phone'] }}</li>
                         <li>{{ $personalData['email'] }}</li>
                     </ul>
                 </div>
 
-                <h3 class="resume-title">Education</h3>
+                <h3 class="resume-title">Professional Attributes</h3>
+                <div class="resume-item  pb-0">
+                    <ul>
+                        <li>
+                            <p>
+                                <b>Full-Stack Development Expertise: </b>
+                                Proven ability to architect and develop scalable web applications
+                                using PHP, Laravel, CodeIgniter, and SuiteCRM, with a focus on high-performance
+                                solutions.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <b>E-Commerce & Fintech Specialization: </b>
+                                Extensive experience in building and optimizing e-commerce
+                                platforms and fintech applications, integrating secure payment gateways, shipping
+                                solutions, and
+                                API-driven architectures.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <b>API Development & Third-Party Integrations: </b>
+                                Proficient in developing REST APIs and integrating third
+                                party services such as payment gateways (Stripe, Razorpay, Moneris), shipping platforms
+                                (Easypost,
+                                Shiprocket, Australia Post), and blockchain-based solutions (BitGo, Onmeta).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <b>Project Leadership & Team Management: </b>
+                                Experienced in leading projects, managing development
+                                teams, and ensuring timely delivery of high-quality, maintainable code while following
+                                industry best
+                                practices.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                {{-- <h3 class="resume-title">Education</h3>
                 <div class="resume-item">
                     <h4>{{ $personalData['degree'] }}</h4>
                     <h5>2016 - 2020</h5>
                     <p><em>Parul Institute of Engineering & Technology, Vadodara, GJ</em></p>
-                </div>
+                </div> --}}
 
                 <h3 class="resume-title">Internship</h3>
                 <div class="resume-item">
@@ -75,21 +112,21 @@
                         <li>
                             Notable projects include City Soccer FC, a platform for managing soccer events and ticket
                             bookings, and Taco-Sur, a specialized food delivery app focused on tacos, burritos, and
-                            catering services. In both projects, I designed and implemented secure, user-friendly systems for
+                            catering services. In both projects, I designed and implemented secure, user-friendly
+                            systems for
                             order management, real-time tracking, and seamless payment integration.
                         </li>
                         <li>
                             Additionally, I optimized database performance, developed APIs for mobile applications, and
                             ensured scalable, efficient backends to enhance user experience and operational efficiency
                         </li>
-                        {{-- <li>
+                        <li>
                             <strong>Skills Used:</strong>
                             PHP, Laravel, Codeigniter, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT,
                             REST APIs, API Development.
-                        </li> --}}
+                        </li>
                     </ul>
                 </div>
-
                 <div class="resume-item">
                     <h4>PHP Developer (Laravel, Codeigniter) </h4>
                     <h5>July 2021 – October 2024</h5>
@@ -104,14 +141,14 @@
                             Skilled in leading projects, managing development teams, and delivering high-quality
                             solutions on time.
                         </li>
-                        {{-- <li>
+                        <li>
                             <strong>Skills Used:</strong>
-                            PHP, Laravel, Codeigniter, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT, JIRA, ProofHub
+                            PHP, Laravel, Codeigniter, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT, JIRA,
+                            ProofHub
                             REST APIs, API Development, CryptoAPI, Payment Gateway - Stripe, Moneris, Razorpay.
-                        </li> --}}
+                        </li>
                     </ul>
                 </div>
-
                 <div class="resume-item">
                     <h4>PHP Developer (SuiteCRM) </h4>
                     <h5>September 2020 – June 2021</h5>
@@ -126,16 +163,13 @@
                             Collaborated with cross-functional teams to ensure seamless project execution and timely
                             delivery of high-quality solutions.
                         </li>
-                        {{-- <li>
+                        <li>
                             <strong>Skills Used:</strong>
                             PHP, SuiteCRM, JavaScript, jQuery, Ajax, MySQL, HTML/CSS, Bootstrap, GIT, JIRA
-                        </li> --}}
+                        </li>
                     </ul>
                 </div>
             </div>
-
         </div>
-
     </div>
-
 </section>
