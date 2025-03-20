@@ -8,50 +8,78 @@
         }
 
         .skill-card {
+            position: relative;
             background: #f8f9fa;
-            /* Light background */
             border-radius: 10px;
             padding: 15px;
             transition: 0.3s ease-in-out;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
+            overflow: hidden;
         }
 
         .skill-card:hover {
-            background: #e9ecef;
-            /* Slightly darker on hover */
             transform: translateY(-5px);
         }
 
+        /* Skill Icon */
         .skill-icon {
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100px;
             max-height: 100px;
+            transition: 0.3s ease-in-out;
         }
 
         .skill-icon img {
             width: 75px;
             height: 75px;
             object-fit: contain;
+            transition: 0.3s ease-in-out;
+        }
+
+        /* Overlay effect */
+        .skill-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .skill-card:hover .skill-overlay {
+            opacity: 1;
+            transform: scale(1);
         }
 
         .skill-name {
-            margin-top: 10px;
             font-weight: bold;
-            color: #333;
-            font-size: 14px;
+            font-size: 16px;
+            color: white;
+        }
+
+        .skill-description {
+            font-size: 12px;
+            margin-top: 5px;
         }
     </style>
 @endsection
 <section id="skills" class="portfolio section">
     <div class="container section-title" data-aos="fade-up">
         <h2>Professional Skills</h2>
-        {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-        sit
-        in iste officiis commodi quidem hic quas.</p> --}}
+        <p>I specialize in building scalable, high-performance web solutions with expertise in programming languages, frameworks, databases, and APIs. Committed to clean coding, security best practices, and performance optimization, I stay updated with industry trends to deliver efficient and user-friendly applications.</p>
     </div>
 
     <div class="container">
@@ -73,11 +101,16 @@
                             <div class="skill-icon">
                                 <img src="{{ $skill['image'] }}" class="img-fluid" alt="{{ $skill['name'] }}">
                             </div>
-                            <h6 class="skill-name">{{ $skill['name'] }}</h6>
+                            {{-- <h6 class="skill-name">{{ $skill['name'] }}</h6> --}}
+                            <div class="skill-overlay">
+                                <h6 class="skill-name">{{ $skill['name'] }}</h6>
+                                <p class="skill-description">{{ $skill['description'] }}</p>
+                            </div>
                         </div>
                     </div>
                 @endforeach
             </div>
+
         </div>
     </div>
 </section>
