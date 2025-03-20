@@ -1,27 +1,39 @@
 @extends('front.layout')
 
 @section('content')
+    <header id="header" class="header d-flex flex-column justify-content-center">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="{{ route('index') }}#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+                <li><a href="{{ route('index') }}#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+                <li><a href="{{ route('index') }}#skills"><i class="bi bi-graph-up-arrow navicon"></i><span> Skills</span></a></li>
+                <li><a href="{{ route('index') }}#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+                <li><a href="{{ route('index') }}#portfolio"><i class="bi bi-hdd-stack navicon"></i><span>Portfolio</span></a></li>
+                <li><a href="{{ route('index') }}#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main class="main">
-        <!-- Page Title -->
         <div class="page-title" data-aos="fade">
             <div class="container">
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li class="current">Service Details</li>
+                        <li class="current">Webbrains Technologies</li>
                     </ol>
                 </nav>
-                <h1>Service Details</h1>
+                <h1>Webbrains Technologies</h1>
             </div>
-        </div><!-- End Page Title -->
+        </div>
 
-        <!-- Service Details Section -->
         <section id="service-details" class="service-details section">
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-box">
-                            <h4>Serices List</h4>
+                            <h4>Projects</h4>
                             <div class="services-list">
                                 <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web
                                         Design</span></a>
@@ -40,15 +52,6 @@
                                 <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
                             </div>
                         </div><!-- End Services List -->
-
-                        <div class="help-box d-flex flex-column justify-content-center align-items-center">
-                            <i class="bi bi-headset help-icon"></i>
-                            <h4>Have a Question?</h4>
-                            <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1
-                                    5589 55488 55</span></p>
-                            <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
-                                    href="mailto:contact@example.com">contact@example.com</a></p>
-                        </div>
                     </div>
 
                     <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
