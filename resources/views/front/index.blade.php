@@ -16,10 +16,24 @@
                                 Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
                         </p>
                         <div class="social-links">
-                            <a href="#"><i class="bi bi-twitter-x"></i></a>
-                            <a href="#"><i class="bi bi-facebook"></i></a>
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            @isset($socialMedia['facebook'])
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                            @endisset
+                            @isset($socialMedia['twitter'])
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            @endisset
+                            @isset($socialMedia['instagram'])
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                            @endisset
+                            @isset($socialMedia['linkedin'])
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            @endisset
+                            @isset($socialMedia['github'])
+                                <a href="#"><i class="bi bi-github"></i></a>
+                            @endisset
+                            @isset($socialMedia['skype'])
+                                <a href="#"><i class="bi bi-skype"></i></a>
+                            @endisset
                         </div>
                     </div>
                 </div>
