@@ -32,7 +32,7 @@
                                         <i class="bi bi-arrow-right-circle"></i> <span>MyMofoSmile</span>
                                     </a>
                                     <a class="nav-link" data-bs-toggle="pill" href="#project3">
-                                        <i class="bi bi-arrow-right-circle"></i> <span>We Supply</span>
+                                        <i class="bi bi-arrow-right-circle"></i> <span>Saveon Supplies | We Supply</span>
                                     </a>
                                     <a class="nav-link" data-bs-toggle="pill" href="#project4">
                                         <i class="bi bi-arrow-right-circle"></i> <span>Santani Steels </span>
@@ -145,7 +145,7 @@
                                         <span class="badge bg-danger d-flex align-items-center">
                                             <i class="bi bi-layers me-1"></i> Laravel
                                         </span>
-                                        <span class="badge bg-dark d-flex align-items-center">
+                                        <span class="badge bg-warning text-dark d-flex align-items-center">
                                             <i class="bi bi-filetype-js me-1"></i> JavaScript
                                         </span>
                                         <span class="badge bg-info text-dark d-flex align-items-center">
@@ -273,7 +273,7 @@
                                         <span class="badge bg-danger d-flex align-items-center">
                                             <i class="bi bi-layers me-1"></i> Laravel
                                         </span>
-                                        <span class="badge bg-dark d-flex align-items-center">
+                                        <span class="badge bg-warning text-dark d-flex align-items-center">
                                             <i class="bi bi-filetype-js me-1"></i> JavaScript
                                         </span>
                                         <span class="badge bg-info text-dark d-flex align-items-center">
@@ -338,60 +338,101 @@
                             </div>
 
                             <!-- Project 3 -->
-                            <div class="tab-pane fade" id="project3">
-                                <h3>Project 3: Custom CMS Development</h3>
+                            <div class="tab-pane fad" id="project3">
+                                <h3>Saveon Supplies | We Supply <a href="https://saveon.supplies" target="_blank"
+                                        class="text-primary"><i class="bi bi-box-arrow-up-right"></i></a></h3>
                                 <p>
-                                    Built a flexible and modular CMS tailored for businesses to manage content dynamically
-                                    with
-                                    role-based access control.
+                                    Saveon Supplies or WeSupply is an e-commerce platform operating in the US and Canada,
+                                    specializing in
+                                    pharmacy supplies, healthcare, beauty, and dentistry products. The platform caters to
+                                    both regular consumers and retailers such as pharmacists, dentists, and clinics.
                                 </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle"></i> Drag-and-drop content management</li>
-                                    <li><i class="bi bi-check-circle"></i> Role-based user access</li>
-                                    <li><i class="bi bi-check-circle"></i> SEO-friendly structure</li>
-                                </ul>
+
+                                <div class="mt-4">
+                                    <h5 class="text-dark">Technology Stack</h5>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="bi bi-check-circle"></i><strong>Frontend: </strong> <span
+                                                class="ml-3"> Ecommerce site created using Html/Css & Bootstrap</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check-circle"></i><strong>Backend: </strong> <span
+                                                class="ml-3"> Powered by PHP-Laravel & MySQL</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="text-dark">My Role in the Project</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-check-circle"></i> Built and optimized the backend panel for
+                                            managing users, orders, and inventory.
+                                        </li>
+                                        <li><i class="bi bi-check-circle"></i> Designed and implemented a robust inventory
+                                            systems.</li>
+                                        <li><i class="bi bi-check-circle"></i> Handled purchase orders, sales orders, and
+                                            their complete lifecycle.</li>
+                                        <li><i class="bi bi-check-circle"></i> Implemented Moneris Payment Gateway for
+                                            seamless transactions.</li>
+                                        <li><i class="bi bi-check-circle"></i> Improved SQL queries and database
+                                            performance to support high traffic loads efficiently.
+                                        </li>
+                                    </ul>
+                                </div>
 
                                 <!-- Skills Used -->
                                 <div class="mt-4 p-3 bg-light rounded shadow-sm">
                                     <h5 class="text-dark">Skills Used:</h5>
                                     <div class="d-flex flex-wrap gap-2 mt-2">
-                                        <span class="badge bg-primary d-flex align-items-center"><i
-                                                class="bi bi-code-slash me-1"></i> PHP</span>
-                                        <span class="badge bg-danger d-flex align-items-center"><i
-                                                class="bi bi-layers me-1"></i> Laravel</span>
-                                        <span class="badge bg-warning text-dark d-flex align-items-center"><i
-                                                class="bi bi-stack me-1"></i> CodeIgniter</span>
-                                        <span class="badge bg-dark d-flex align-items-center"><i
-                                                class="bi bi-filetype-js me-1"></i> JavaScript</span>
-                                        <span class="badge bg-info text-dark d-flex align-items-center"><i
-                                                class="bi bi-lightbulb me-1"></i> jQuery</span>
-                                        <span class="badge bg-success d-flex align-items-center"><i
-                                                class="bi bi-lightning me-1"></i> Ajax</span>
-                                        <span class="badge bg-primary d-flex align-items-center"><i
-                                                class="bi bi-database me-1"></i> MySQL</span>
-                                        <span class="badge bg-secondary d-flex align-items-center"><i
-                                                class="bi bi-code me-1"></i> HTML/CSS</span>
-                                        <span class="badge bg-primary d-flex align-items-center"><i
-                                                class="bi bi-grid me-1"></i> Bootstrap</span>
-                                        <span class="badge bg-dark d-flex align-items-center"><i
-                                                class="bi bi-git me-1"></i> GIT</span>
-                                        <span class="badge bg-danger d-flex align-items-center"><i
-                                                class="bi bi-kanban me-1"></i> JIRA</span>
-                                        <span class="badge bg-secondary d-flex align-items-center"><i
-                                                class="bi bi-journal-code me-1"></i> ProofHub</span>
-                                        <span class="badge bg-info text-dark d-flex align-items-center"><i
-                                                class="bi bi-plug me-1"></i> REST APIs</span>
-                                        <span class="badge bg-success d-flex align-items-center"><i
-                                                class="bi bi-shield-lock me-1"></i> API Development</span>
-                                        <span class="badge bg-warning text-dark d-flex align-items-center"><i
-                                                class="bi bi-currency-bitcoin me-1"></i> CryptoAPI</span>
-                                        <span class="badge bg-dark d-flex align-items-center"><i
-                                                class="bi bi-credit-card me-1"></i> Stripe</span>
-                                        <span class="badge bg-danger d-flex align-items-center"><i
-                                                class="bi bi-credit-card-2-back me-1"></i> Moneris</span>
-                                        <span class="badge bg-primary d-flex align-items-center"><i
-                                                class="bi bi-wallet me-1"></i> Razorpay</span>
+                                        <span class="badge bg-primary d-flex align-items-center">
+                                            <i class="bi bi-code-slash me-1"></i> PHP
+                                        </span>
+                                        <span class="badge bg-danger d-flex align-items-center">
+                                            <i class="bi bi-layers me-1"></i> Laravel
+                                        </span>
+                                        <span class="badge bg-warning text-dark d-flex align-items-center">
+                                            <i class="bi bi-filetype-js me-1"></i> JavaScript
+                                        </span>
+                                        <span class="badge bg-info text-dark d-flex align-items-center">
+                                            <i class="bi bi-lightbulb me-1"></i> jQuery
+                                        </span>
+                                        <span class="badge bg-success d-flex align-items-center">
+                                            <i class="bi bi-lightning me-1"></i> Ajax
+                                        </span>
+                                        <span class="badge bg-primary d-flex align-items-center">
+                                            <i class="bi bi-database me-1"></i> MySQL
+                                        </span>
+                                        <span class="badge bg-secondary d-flex align-items-center">
+                                            <i class="bi bi-code me-1"></i> HTML/CSS
+                                        </span>
+                                        <span class="badge bg-primary d-flex align-items-center">
+                                            <i class="bi bi-grid me-1"></i> Bootstrap
+                                        </span>
+                                        <span class="badge bg-dark d-flex align-items-center">
+                                            <i class="bi bi-git me-1"></i> GIT
+                                        </span>
+                                        <span class="badge bg-secondary d-flex align-items-center">
+                                            <i class="bi bi-journal-code me-1"></i> ProofHub
+                                        </span>
+                                        <span class="badge bg-dark d-flex align-items-center">
+                                            <i class="bi bi-credit-card me-1"></i> Moneris Payments
+                                        </span>
                                     </div>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="text-dark">How My Work Has Helped the Site</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-check-circle"></i> Optimized database queries, reducing order
+                                            processing time significantly.</li>
+                                        <li><i class="bi bi-check-circle"></i> Designed a real-time stock update system,
+                                            minimizing inventory errors.
+                                        </li>
+                                        <li><i class="bi bi-check-circle"></i> Integrated Moneris Payment Gateway, ensuring
+                                            secure transactions.</li>
+                                        <li><i class="bi bi-check-circle"></i> Streamlined the admin panel, making order
+                                            and inventory management seamless for business owners.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
