@@ -1,3 +1,4 @@
+
 <section id="portfolio" class="services section">
     <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
@@ -9,7 +10,7 @@
         <p>
             Feel free to explore the projects I’ve worked on to get a glimpse of the work I’ve done over the years.
         </p>
-    </div> 
+    </div>
 
     <div class="container">
         <div class="row gy-4">
@@ -23,8 +24,9 @@
                         <h3 class="h5 font-weight-bold text-dark">Freelance Developer</h3>
                     </a>
                     <p class="text-muted">November 2024 – Present</p>
-                    <a href="{{ route('view-portfolio', 'freelance') }}" class="text-primary mt-2 d-inline-block">
-                        View Projects <i class="bi bi-arrow-right-circle"></i>
+                    <a href="{{ route('view-portfolio', 'freelance') }}" class="btn btn-primary mt-4 gap-2 rounded-pill shadow-sm">
+                        <span>Key Projects</span>
+                        <i class="bi bi-arrow-right-circle text-light"></i>
                     </a>
                 </div>
             </div>
@@ -38,8 +40,9 @@
                         <h3 class="h5 font-weight-bold text-dark">Web Brains Technologies</h3>
                     </a>
                     <p class="text-muted">July 2021 – October 2024</p>
-                    <a href="{{ route('view-portfolio', 'webbrains') }}" class="text-primary mt-2 d-inline-block">
-                        View Projects <i class="bi bi-arrow-right-circle"></i>
+                    <a href="{{ route('view-portfolio', 'webbrains') }}" class="btn btn-primary mt-4 gap-2 rounded-pill shadow-sm">
+                        <span>Key Projects</span>
+                        <i class="bi bi-arrow-right-circle text-light"></i>
                     </a>
                 </div>
             </div>
@@ -53,8 +56,9 @@
                         <h3 class="h5 font-weight-bold text-dark">Svaapta IT-ALLY Solutions</h3>
                     </a>
                     <p class="text-muted">September 2020 – June 2021</p>
-                    <a href="{{ route('view-portfolio', 'svaapta') }}" class="text-primary mt-2 d-inline-block">
-                        View Projects <i class="bi bi-arrow-right-circle"></i>
+                    <a href="{{ route('view-portfolio', 'svaapta') }}" class="btn btn-primary mt-4 gap-2 rounded-pill shadow-sm">
+                        <span>Key Projects</span>
+                        <i class="bi bi-arrow-right-circle text-light"></i>
                     </a>
                 </div>
             </div>

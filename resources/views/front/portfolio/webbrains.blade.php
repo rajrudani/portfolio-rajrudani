@@ -44,9 +44,9 @@
                         <div class="service-box">
                             <h4>Portfolios</h4>
                             <div class="download-catalog">
-                                <a href=""><i class="bi bi-arrow-up-right-circle"></i><span>Freelance
+                                <a href="{{ route('view-portfolio', 'freelance') }}"><i class="bi bi-arrow-up-right-circle"></i><span>Freelance
                                         Projects</span></a>
-                                <a href=""><i class="bi bi-arrow-up-right-circle"></i><span class="mr-2">Svaapta IT
+                                <a href="{{ route('view-portfolio', 'svaapta') }}"><i class="bi bi-arrow-up-right-circle"></i><span class="mr-2">Svaapta IT
                                         ALLY Solutions</span></a>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                     <h6 class="text-dark">Core Features</h6>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <strong>Crypto Buy/Sell: </strong> <span class="ml-3"> Users can purchase or
+                                            <b>Crypto Buy/Sell: </b> <span class="ml-3"> Users can purchase or
                                                 sell cryptocurrencies directly through the app.
                                             </span>
                                         </li>

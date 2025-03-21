@@ -14,7 +14,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <main class="main">
         <!-- Hero Section -->
         <section id="hero" class="hero section light-background">
@@ -23,8 +23,9 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <h2>{{ $personalData['name'] }}</h2>
-                        <p>I'm 
-                            <span class="typed" data-typed-items="PHP Developer, Freelance Developer">{{ $personalData['job-title'] }}
+                        <p>I'm
+                            <span class="typed"
+                                data-typed-items="PHP Developer, Freelance Developer">{{ $personalData['job-title'] }}
                             </span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
                         </p>
                         <div class="social-links">
@@ -64,7 +65,6 @@
         <!-- Resume Section -->
         @include('front.index-partials.resume')
         <!-- /Resume Section -->
-
 
         <!-- Portfolio Section -->
         @include('front.index-partials.portfolio')
