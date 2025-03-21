@@ -28,7 +28,7 @@
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{{ $personalData['phone'] }}</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>{{ $personalData['location'] }}</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>English, Hindi, Gujarati</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Total Experiance:</strong> <span>4 Years</span></li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
@@ -38,6 +38,7 @@
                             <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
                                 <span>rajrudani1234@gmail.com</span>
                             </li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>English, Hindi, Gujarati</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
                                 <span>Available</span>
                             </li>
