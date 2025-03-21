@@ -26,16 +26,16 @@
                                 <h4>Projects</h4>
                                 <ul class="nav nav-pills flex-column" id="projectTabs">
                                     <a class="nav-link active" data-bs-toggle="pill" href="#project1">
-                                        <i class="bi bi-arrow-right-circle"></i> <span> CryptoPe</span>
+                                        <i class="bi bi-arrow-right-circle"></i> <span> CryptoPe (Fintech)</span>
                                     </a>
                                     <a class="nav-link" data-bs-toggle="pill" href="#project2">
-                                        <i class="bi bi-arrow-right-circle"></i> <span>MyMofoSmile</span>
+                                        <i class="bi bi-arrow-right-circle"></i> <span>MyMofoSmile (E-commerce)</span>
                                     </a>
                                     <a class="nav-link" data-bs-toggle="pill" href="#project3">
-                                        <i class="bi bi-arrow-right-circle"></i> <span>Saveon Supplies | We Supply</span>
+                                        <i class="bi bi-arrow-right-circle"></i> <span>Saveon Supplies | We Supply (E-commerce)</span>
                                     </a>
                                     <a class="nav-link" data-bs-toggle="pill" href="#project4">
-                                        <i class="bi bi-arrow-right-circle"></i> <span>Santani Steels </span>
+                                        <i class="bi bi-arrow-right-circle"></i> <span>Santani Steels (CRM)</span>
                                     </a>
                                 </ul>
                             </div>
@@ -131,7 +131,6 @@
                                         <li><i class="bi bi-check-circle"></i> Developed an admin panel using PHP Laravel
                                             to manage and oversee all functionalities within the platform.
                                         </li>
-
                                     </ul>
                                 </div>
 
@@ -432,6 +431,82 @@
                                             secure transactions.</li>
                                         <li><i class="bi bi-check-circle"></i> Streamlined the admin panel, making order
                                             and inventory management seamless for business owners.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Project 3 -->
+                            <div class="tab-pane fad" id="project4">
+                                <h3>Santani Steels – CRM for Steel Business</h3>
+                                <p>
+                                    Santani Steels is a custom-built CRM designed specifically for the steel industry. The system streamlines operations by managing inventory, purchases, sales, employees, and other CRM-related modules. It features multiple access levels for different roles, ensuring smooth workflow management.
+                                </p>
+
+                                <div class="mt-4">
+                                    <h5 class="text-dark">Technology Stack</h5>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="bi bi-check-circle"></i><strong>Backend: </strong> <span
+                                                class="ml-3"> Powered by PHP-Codeigniter & MySQL</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="text-dark">My Role in the Project</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-check-circle"></i> Designed a system to generate, track, and manage sales and purchase invoices efficiently.
+                                        </li>
+                                        <li><i class="bi bi-check-circle"></i> Enabled real-time tracking of sales and customer interactions.</li>
+                                        <li><i class="bi bi-check-circle"></i> Improved performance and usability of the purchase workflow.</li>
+                                        <li><i class="bi bi-check-circle"></i> Implemented Moneris Payment Gateway for
+                                            seamless transactions.</li>
+                                        <li><i class="bi bi-check-circle"></i> Created detailed reports for sales, inventory, and business analyticss.
+                                        </li>
+                                        <li><i class="bi bi-check-circle"></i> Refactored SQL queries for faster data retrieval and improved system performance.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Skills Used -->
+                                <div class="mt-4 p-3 bg-light rounded shadow-sm">
+                                    <h5 class="text-dark">Skills Used:</h5>
+                                    <div class="d-flex flex-wrap gap-2 mt-2">
+                                        <span class="badge bg-primary d-flex align-items-center">
+                                            <i class="bi bi-code-slash me-1"></i> PHP
+                                        </span>
+                                        <span class="badge bg-danger d-flex align-items-center">
+                                            <i class="bi bi-layers me-1"></i> Codeigniter
+                                        </span>
+                                        <span class="badge bg-warning text-dark d-flex align-items-center">
+                                            <i class="bi bi-filetype-js me-1"></i> JavaScript
+                                        </span>
+                                        <span class="badge bg-info text-dark d-flex align-items-center">
+                                            <i class="bi bi-lightbulb me-1"></i> jQuery
+                                        </span>
+                                        <span class="badge bg-success d-flex align-items-center">
+                                            <i class="bi bi-lightning me-1"></i> Ajax
+                                        </span>
+                                        <span class="badge bg-primary d-flex align-items-center">
+                                            <i class="bi bi-database me-1"></i> MySQL
+                                        </span>
+                                        <span class="badge bg-dark d-flex align-items-center">
+                                            <i class="bi bi-git me-1"></i> GIT
+                                        </span>
+                                        <span class="badge bg-secondary d-flex align-items-center">
+                                            <i class="bi bi-journal-code me-1"></i> ProofHub
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="text-dark">How My Work Has Helped the Site</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-check-circle"></i> Automated calculations, reducing manual effort and improving response time.</li>
+                                        <li><i class="bi bi-check-circle"></i> Optimized workflows, preventing stock issues and delays.
+                                        </li>
+                                        <li><i class="bi bi-check-circle"></i> Optimized SQL queries and code, reducing page load times and improving system reliability.</li>
+                                        <li><i class="bi bi-check-circle"></i> Enhanced reporting features helped the management make data-driven decisions.</li>
                                     </ul>
                                 </div>
                             </div>
