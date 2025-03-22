@@ -17,22 +17,6 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item item-cyan position-relative shadow-lg p-4 rounded">
                     <div class="icon mb-3">
-                        <img src="{{ asset('assets/img/company/freelance.png') }}" alt="Freelance Developer"
-                            class="img-fluid" height="250" width="250">
-                    </div>
-                    <a href="{{ route('view-portfolio', 'freelance') }}" class="stretched-link">
-                        <h3 class="h5 font-weight-bold text-dark">Freelance Developer</h3>
-                    </a>
-                    <p class="text-muted">November 2024 – Present</p>
-                    <a href="{{ route('view-portfolio', 'freelance') }}" class="btn btn-primary mt-4 gap-2 rounded-pill shadow-sm">
-                        <span>Key Projects</span>
-                        <i class="bi bi-arrow-right-circle text-light"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item item-cyan position-relative shadow-lg p-4 rounded">
-                    <div class="icon mb-3">
                         <img src="{{ asset('assets/img/company/webbrains.jpeg') }}" alt="Webbrains Technologies"
                             class="img-fluid">
                     </div>
@@ -41,6 +25,22 @@
                     </a>
                     <p class="text-muted">July 2021 – October 2024</p>
                     <a href="{{ route('view-portfolio', 'webbrains') }}" class="btn btn-primary mt-4 gap-2 rounded-pill shadow-sm">
+                        <span>Key Projects</span>
+                        <i class="bi bi-arrow-right-circle text-light"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item item-cyan position-relative shadow-lg p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="{{ asset('assets/img/company/freelance.png') }}" alt="Freelance Developer"
+                            class="img-fluid" height="250" width="250">
+                    </div>
+                    <a href="{{ route('view-portfolio', 'freelance') }}" class="stretched-link">
+                        <h3 class="h5 font-weight-bold text-dark">Freelance Developer</h3>
+                    </a>
+                    <p class="text-muted">November 2024 – Present</p>
+                    <a href="{{ route('view-portfolio', 'freelance') }}" class="btn btn-primary mt-4 gap-2 rounded-pill shadow-sm">
                         <span>Key Projects</span>
                         <i class="bi bi-arrow-right-circle text-light"></i>
                     </a>
