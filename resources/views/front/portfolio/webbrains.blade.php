@@ -9,10 +9,10 @@
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="{{ route('index') }}">Home</a></li>
-                        <li class="current">Webbrains Technologies</li>
+                        <li class="current">Projects @ Webbrains Technologies</li>
                     </ol>
                 </nav>
-                <h1>Webbrains Technologies</h1>
+                <h1>Projects @ Webbrains Technologies</h1>
             </div>
         </div>
 
