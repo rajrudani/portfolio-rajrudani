@@ -11,7 +11,9 @@
                         class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
             <li><a href="{{ route('index') }}#portfolio"><i
                         class="bi bi-hdd-stack navicon"></i><span>Portfolio</span></a></li>
-            <li><a href="{{ route('index') }}#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a>
+            <li><a href="{{ route('index') }}#awards"><i
+                class="bi bi-award navicon"></i><span>Awards</span></a></li>
+            {{-- <li><a href="{{ route('index') }}#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a> --}}
             </li>
         </ul>
     </nav>
