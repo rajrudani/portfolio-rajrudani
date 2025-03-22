@@ -96,7 +96,7 @@
 
             <div class="row mt-3 gy-4 isotope-container skill-container" data-aos="fade-up" data-aos-delay="200">
                 @foreach ($skills as $skill)
-                    <div class="col-md-2 col-sm-4 col-6 text-center portfolio-item isotope-item {{ $skill['filter'] }}">
+                    <div class="col-md-2 col-sm-4 col-4 text-center portfolio-item isotope-item {{ $skill['filter'] }}">
                         <div class="skill-card">
                             <div class="skill-icon">
                                 <img src="{{ $skill['image'] }}" class="img-fluid" alt="{{ $skill['name'] }}" @isset ($skill['width'])

@@ -30,22 +30,22 @@
                         </p>
                         <div class="social-links">
                             @isset($socialMedia['facebook'])
-                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="{{ $socialMedia['facebook'] }}" target="_blank"><i class="bi bi-facebook"></i></a>
                             @endisset
                             @isset($socialMedia['twitter'])
-                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="{{ $socialMedia['twitter'] }}" target="_blank"><i class="bi bi-twitter-x"></i></a>
                             @endisset
                             @isset($socialMedia['instagram'])
-                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="{{ $socialMedia['instagram'] }}" target="_blank"><i class="bi bi-instagram"></i></a>
                             @endisset
                             @isset($socialMedia['linkedin'])
-                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="{{ $socialMedia['linkedin'] }}" target="_blank"><i class="bi bi-linkedin"></i></a>
                             @endisset
                             @isset($socialMedia['github'])
-                                <a href="#"><i class="bi bi-github"></i></a>
+                                <a href="{{ $socialMedia['github'] }}" target="_blank"><i class="bi bi-github"></i></a>
                             @endisset
                             @isset($socialMedia['skype'])
-                                <a href="#"><i class="bi bi-skype"></i></a>
+                                <a href="{{ $socialMedia['skype'] }}" target="_blank"><i class="bi bi-skype"></i></a>
                             @endisset
                         </div>
                     </div>

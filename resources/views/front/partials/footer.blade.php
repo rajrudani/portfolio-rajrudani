@@ -5,22 +5,22 @@
         </p>
         <div class="social-links d-flex justify-content-center">
             @isset($socialMedia['facebook'])
-                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="{{ $socialMedia['facebook'] }}"><i class="bi bi-facebook"></i></a>
             @endisset
             @isset($socialMedia['twitter'])
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="{{ $socialMedia['twitter'] }}"><i class="bi bi-twitter-x"></i></a>
             @endisset
             @isset($socialMedia['instagram'])
-                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="{{ $socialMedia['instagram'] }}"><i class="bi bi-instagram"></i></a>
             @endisset
             @isset($socialMedia['linkedin'])
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="{{ $socialMedia['linkedin'] }}"><i class="bi bi-linkedin"></i></a>
             @endisset
             @isset($socialMedia['github'])
-                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="{{ $socialMedia['github'] }}"><i class="bi bi-github"></i></a>
             @endisset
             @isset($socialMedia['skype'])
-                <a href="#"><i class="bi bi-skype"></i></a>
+                <a href="{{ $socialMedia['skype'] }}"><i class="bi bi-skype"></i></a>
             @endisset
         </div>
         <div class="container">

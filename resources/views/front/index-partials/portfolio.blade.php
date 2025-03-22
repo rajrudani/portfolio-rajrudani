@@ -32,6 +32,7 @@
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item item-cyan position-relative shadow-lg p-4 rounded">
+                    
                     <div class="icon mb-3">
                         <img src="{{ asset('assets/img/company/freelance.png') }}" alt="Freelance Developer"
                             class="img-fluid" height="250" width="250">

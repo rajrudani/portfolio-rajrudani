@@ -22,12 +22,12 @@ class ViewServiceProvider extends ServiceProvider
     {
         View::composer(['front.layout', 'front.index'], function ($view) {
             $socialMedia = [
-                'facebook' => 'dsad',
-                'twitter' => 'dsa',
-                'instagram' => 'dasd',
+                'facebook' => null,
+                'twitter' => 'https://x.com/rkrudani24?s=21&t=NvDu73Xj4tbI56NL4JwSyA',
+                'instagram' => null,
                 'linkedin' => 'https://www.linkedin.com/in/rajrudani',
-                'github' => 'sad',
-                'skype' => 'sad',
+                'github' => 'https://github.com/rajrudani',
+                'skype' => 'https://join.skype.com/invite/xbadvzdH5Lff',
             ];
 
             $personalData = [
