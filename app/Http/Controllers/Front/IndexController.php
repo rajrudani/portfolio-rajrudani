@@ -19,8 +19,8 @@ class IndexController extends Controller
         if($company == 'webbrains'){
             return view('front.portfolio.webbrains');
         
-        } else if($company == 'svaaapta'){
-            return view('front.portfolio.svaaapta');
+        } else if($company == 'svaapta'){
+            return view('front.portfolio.svaapta');
         
         } if($company == 'freelance'){
             return view('front.portfolio.freelance');
