@@ -65,22 +65,19 @@
                                 </p>
 
                                 <div class="mt-1">
-                                    <h6 class="text-dark">Core Features</h6>
+                                    <h6 class="text-dark">Key Features</h6>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <b>Crypto Buy/Sell: </b> <span class="ml-3"> Users can purchase or
-                                                sell cryptocurrencies directly through the app.
-                                            </span>
+                                            <i class="bi bi-arrow-right-short"></i>
+                                            Crypto Buy/Sell – Users can purchase or sell cryptocurrencies directly through the app.
                                         </li>
                                         <li>
-                                            <strong>Scan & Pay using Cryptos: </strong> <span class="ml-3"> Users can pay
-                                                merchants by scanning a QR code for easy transactions.
-                                            </span>
+                                            <i class="bi bi-arrow-right-short"></i>
+                                            Scan & Pay using Cryptos – Users can pay merchants by scanning a QR code for easy transactions.
                                         </li>
                                         <li>
-                                            <strong>Crypto Deposit and Withdraw: </strong> <span class="ml-3"> Users can
-                                                deposit and withdraw their cryptocurrency holdings.
-                                            </span>
+                                            <i class="bi bi-arrow-right-short"></i>
+                                            Crypto Deposit and Withdraw – Users can deposit and withdraw their cryptocurrency holdings.
                                         </li>
                                     </ul>
                                 </div>
@@ -89,13 +86,13 @@
                                     <h5 class="text-dark">Technology Stack</h5>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Frontend: </strong> <span
+                                            <i class="bi bi-window-stack"></i><strong>Frontend: </strong> <span
                                                 class="ml-3"> Two mobile apps (for users and merchants) and a web app for
                                                 guest users.
                                             </span>
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Backend: </strong> <span
+                                            <i class="bi bi-code-slash"></i><strong>Backend: </strong> <span
                                                 class="ml-3"> Admin panel built using PHP, Laravel, and MySQL.
                                             </span>
                                         </li>
@@ -109,26 +106,25 @@
                                         frontend and backend architecture. Here’s a breakdown of my contributions:
                                     </p>
                                     <ul class="list-unstyled">
-                                        <li><i class="bi bi-check-circle"></i> Created and optimized APIs for mobile apps
+                                        <li><i class="bi bi-arrow-right-square"></i> Created and optimized APIs for mobile apps
                                             to manage core features, including crypto transactions, user authentication, and
                                             payments.</li>
-                                        <li><i class="bi bi-check-circle"></i> Worked to optimize the speed and reliability
+                                        <li><i class="bi bi-arrow-right-square"></i> Worked to optimize the speed and reliability
                                             of crypto transactions, improving overall app performance.
                                         </li>
-                                        <li><i class="bi bi-check-circle"></i> Integrated the following third-party
+                                        <li><i class="bi bi-arrow-right-square"></i> Integrated the following third-party
                                             platforms to manage core functionalities:</li>
                                         <ul class="ps-4">
-                                            <li><i class="bi bi-arrow-right"></i> BitGo: Secure wallet management, enabling
+                                            <li><i class="bi bi-dot"></i> BitGo: Secure wallet management, enabling
                                                 users to store, buy, and sell cryptocurrencies.</li>
-                                            <li><i class="bi bi-arrow-right"></i> OnMeta: KYC (Know Your Customer)
-                                                processes, including generating quotes and managing on-ramp and off-ramp
+                                            <li><i class="bi bi-dot"></i> Onmeta: KYC processes, including generating quotes and managing on-ramp and off-ramp
                                                 transactions.</li>
-                                            <li><i class="bi bi-arrow-right"></i> Signzy: Handling KYC verification for
+                                            <li><i class="bi bi-dot"></i> Signzy: Handling KYC verification for
                                                 merchants and guest users.</li>
-                                            <li><i class="bi bi-arrow-right"></i> Razorpay: Providing seamless and secure
+                                            <li><i class="bi bi-dot"></i> Razorpay: Providing seamless and secure
                                                 payment options for crypto transactions.</li>
                                         </ul>
-                                        <li><i class="bi bi-check-circle"></i> Developed an admin panel using PHP Laravel
+                                        <li><i class="bi bi-arrow-right-square"></i> Developed an admin panel using PHP Laravel
                                             to manage and oversee all functionalities within the platform.
                                         </li>
                                     </ul>
@@ -233,11 +229,11 @@
                                     <h5 class="text-dark">Technology Stack</h5>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Frontend: </strong> <span
+                                            <i class="bi bi-window-stack"></i><strong>Frontend: </strong> <span
                                                 class="ml-3"> Managed by WooCommerce & Shopify</span>
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Backend: </strong> <span
+                                            <i class="bi bi-code-slash"></i><strong>Backend: </strong> <span
                                                 class="ml-3"> Powered by PHP-Laravel & MySQL</span>
                                         </li>
                                     </ul>
@@ -246,18 +242,18 @@
                                 <div class="mt-4">
                                     <h5 class="text-dark">My Role in the Project</h5>
                                     <ul class="list-unstyled">
-                                        <li><i class="bi bi-check-circle"></i> Designed and implemented a robust backend
+                                        <li><i class="bi bi-arrow-right-square"></i> Designed and implemented a robust backend
                                             system using Laravel.</li>
-                                        <li><i class="bi bi-check-circle"></i> Architected an optimized database structure
+                                        <li><i class="bi bi-arrow-right-square"></i> Architected an optimized database structure
                                             for scalability.</li>
-                                        <li><i class="bi bi-check-circle"></i> Developed a dedicated partner sales
+                                        <li><i class="bi bi-arrow-right-square"></i> Developed a dedicated partner sales
                                             functionality for pharmacies.</li>
-                                        <li><i class="bi bi-check-circle"></i> Integrated a POS system for partners.</li>
-                                        <li><i class="bi bi-check-circle"></i> Implemented shipment carrier integrations:
+                                        <li><i class="bi bi-arrow-right-square"></i> Integrated a POS system for partners.</li>
+                                        <li><i class="bi bi-arrow-right-square"></i> Implemented shipment carrier integrations:
                                         </li>
                                         <ul class="ps-4">
-                                            <li><i class="bi bi-arrow-right"></i> Australia: Australia Post</li>
-                                            <li><i class="bi bi-arrow-right"></i> USA: EasyPost</li>
+                                            <li><i class="bi bi-dot"></i> Australia: Australia Post</li>
+                                            <li><i class="bi bi-dot"></i> USA: EasyPost</li>
                                         </ul>
                                     </ul>
                                 </div>
@@ -351,11 +347,11 @@
                                     <h5 class="text-dark">Technology Stack</h5>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Frontend: </strong> <span
+                                            <i class="bi bi-window-stack"></i><strong>Frontend: </strong> <span
                                                 class="ml-3"> Ecommerce site created using Html/Css & Bootstrap</span>
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Backend: </strong> <span
+                                            <i class="bi bi-code-slash"></i><strong>Backend: </strong> <span
                                                 class="ml-3"> Powered by PHP-Laravel & MySQL</span>
                                         </li>
                                     </ul>
@@ -364,16 +360,16 @@
                                 <div class="mt-4">
                                     <h5 class="text-dark">My Role in the Project</h5>
                                     <ul class="list-unstyled">
-                                        <li><i class="bi bi-check-circle"></i> Built and optimized the backend panel for
+                                        <li><i class="bi bi-arrow-right-square"></i> Built and optimized the backend panel for
                                             managing users, orders, and inventory.
                                         </li>
-                                        <li><i class="bi bi-check-circle"></i> Designed and implemented a robust inventory
+                                        <li><i class="bi bi-arrow-right-square"></i> Designed and implemented a robust inventory
                                             systems.</li>
-                                        <li><i class="bi bi-check-circle"></i> Handled purchase orders, sales orders, and
+                                        <li><i class="bi bi-arrow-right-square"></i> Handled purchase orders, sales orders, and
                                             their complete lifecycle.</li>
-                                        <li><i class="bi bi-check-circle"></i> Implemented Moneris Payment Gateway for
+                                        <li><i class="bi bi-arrow-right-square"></i> Implemented Moneris Payment Gateway for
                                             seamless transactions.</li>
-                                        <li><i class="bi bi-check-circle"></i> Improved SQL queries and database
+                                        <li><i class="bi bi-arrow-right-square"></i> Improved SQL queries and database
                                             performance to support high traffic loads efficiently.
                                         </li>
                                     </ul>
@@ -446,7 +442,7 @@
                                     <h5 class="text-dark">Technology Stack</h5>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <i class="bi bi-check-circle"></i><strong>Backend: </strong> <span
+                                            <i class="bi bi-code-slash"></i><strong>Backend: </strong> <span
                                                 class="ml-3"> Powered by PHP-Codeigniter & MySQL</span>
                                         </li>
                                     </ul>
@@ -455,15 +451,15 @@
                                 <div class="mt-4">
                                     <h5 class="text-dark">My Role in the Project</h5>
                                     <ul class="list-unstyled">
-                                        <li><i class="bi bi-check-circle"></i> Designed a system to generate, track, and manage sales and purchase invoices efficiently.
+                                        <li><i class="bi bi-arrow-right-square"></i> Designed a system to generate, track, and manage sales and purchase invoices efficiently.
                                         </li>
-                                        <li><i class="bi bi-check-circle"></i> Enabled real-time tracking of sales and customer interactions.</li>
-                                        <li><i class="bi bi-check-circle"></i> Improved performance and usability of the purchase workflow.</li>
-                                        <li><i class="bi bi-check-circle"></i> Implemented Moneris Payment Gateway for
+                                        <li><i class="bi bi-arrow-right-square"></i> Enabled real-time tracking of sales and customer interactions.</li>
+                                        <li><i class="bi bi-arrow-right-square"></i> Improved performance and usability of the purchase workflow.</li>
+                                        <li><i class="bi bi-arrow-right-square"></i> Implemented Moneris Payment Gateway for
                                             seamless transactions.</li>
-                                        <li><i class="bi bi-check-circle"></i> Created detailed reports for sales, inventory, and business analyticss.
+                                        <li><i class="bi bi-arrow-right-square"></i> Created detailed reports for sales, inventory, and business analyticss.
                                         </li>
-                                        <li><i class="bi bi-check-circle"></i> Refactored SQL queries for faster data retrieval and improved system performance.
+                                        <li><i class="bi bi-arrow-right-square"></i> Refactored SQL queries for faster data retrieval and improved system performance.
                                         </li>
                                     </ul>
                                 </div>
