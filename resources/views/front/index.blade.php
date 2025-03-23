@@ -1,5 +1,96 @@
 @extends('front.layout')
 
+@section('style')
+    <style>
+        .skill-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill-card {
+            position: relative;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Skill Icon */
+        .skill-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100px;
+            max-height: 100px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .skill-icon img {
+            width: 100px;
+            height: 75px;
+            object-fit: contain;
+            transition: 0.3s ease-in-out;
+        }
+
+        /* Overlay effect */
+        .skill-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .skill-card:hover .skill-overlay {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .skill-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+        }
+
+        .skill-description {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .btn-doc-download {
+            background: rgb(219, 219, 234);
+            color: rgb(125, 123, 123);
+            width: 30%
+        }
+
+        .btn-doc-download:hover {
+            background: #0563bb;
+            color: rgb(244, 237, 237);
+            /* border: 1px solid black; */
+        }
+    </style>
+@endsection
+
 @section('content')
     <header id="header" class="header d-flex flex-column justify-content-center">
         <i class="header-toggle d-xl-none bi bi-list"></i>
@@ -23,12 +114,21 @@
             <div class="container" data-aos="zoom-out">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
+                        {{-- <div class="mb-2">
+                            <a href="{{ route('download-document', 'cv') }}" class="btn btn-doc-download rounded-pill"
+                                rel="noopener noreferrer">
+                                CV <i class="bi bi-download"></i> </a>
+                            <a href="{{ route('download-document', 'resume') }}" class="btn btn-doc-download rounded-pill"
+                                rel="noopener noreferrer">
+                                Resume <i class="bi bi-download"></i></a>
+                        </div> --}}
                         <h2>{{ $personalData['name'] }}</h2>
                         <p>I'm
                             <span class="typed"
                                 data-typed-items="PHP Developer, Freelance Developer">{{ $personalData['job-title'] }}
                             </span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
                         </p>
+                        
                         <div class="social-links">
                             @isset($socialMedia['facebook'])
                                 <a href="{{ $socialMedia['facebook'] }}" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -49,6 +149,7 @@
                                 <a href="{{ $socialMedia['skype'] }}" target="_blank"><i class="bi bi-skype"></i></a>
                             @endisset
                         </div>
+
                     </div>
                 </div>
             </div>

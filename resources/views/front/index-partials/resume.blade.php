@@ -23,6 +23,14 @@
                         <li>{{ $personalData['phone'] }}</li>
                         <li>{{ $personalData['email'] }}</li>
                     </ul>
+                    <div class="mb-2">
+                        <a href="{{ route('download-document', 'cv') }}" class="btn btn-doc-download rounded-pill"
+                            rel="noopener noreferrer">
+                            Download CV  <i class="bi bi-download"></i> </a>
+                        <a href="{{ route('download-document', 'resume') }}" class="btn btn-doc-download rounded-pill"
+                            rel="noopener noreferrer">
+                            Download Resume <i class="bi bi-download"></i></a>
+                    </div>
                 </div>
 
                 <h3 class="resume-title">Professional Attributes</h3>

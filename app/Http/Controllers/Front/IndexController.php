@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers\Front;
 
-use App\Http\Controllers\Controller;
+use Dompdf\Dompdf;
+use Dompdf\Options;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Writer\Html;
 
 class IndexController extends Controller
 {
@@ -25,6 +29,26 @@ class IndexController extends Controller
         } if($company == 'freelance'){
             return view('front.portfolio.freelance');
         }
+    }
+
+    public function downloadDocument($docType)
+    {
+        $basePath = public_path("assets/img/documents");
+        if ($docType == 'cv') {
+            $filePath = $basePath . '/CV.pdf';
+            $newFileName = 'Raj_Rudani_CV_PHP_Developer.pdf';
+        } elseif ($docType == 'resume') {
+            $filePath = $basePath . '/Resume.pdf';
+            $newFileName = 'Raj_Rudani_Resume_PHP_Developer.pdf';
+        } else {
+            return abort(404, 'Invalid document type.');
+        }
+
+        if (file_exists($filePath)) {
+            return response()->download($filePath, $newFileName);
+        }
+
+        return abort(404, 'File not found.');
     }
 
     public function getSkills ()
