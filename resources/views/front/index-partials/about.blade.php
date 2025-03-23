@@ -36,7 +36,7 @@
                             <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>{{ $personalData['nationality'] }}</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{{ $personalData['degree'] }}</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                <span>rajrudani1234@gmail.com</span>
+                                <span>{{ $personalData['email'] }}</span>
                             </li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>English, Hindi, Gujarati</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>

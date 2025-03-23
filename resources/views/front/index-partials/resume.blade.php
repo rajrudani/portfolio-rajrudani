@@ -2,10 +2,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
-        {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-            sit
-            in iste officiis commodi quidem hic quas.</p> --}}
+        <p>A detailed summary of my skills, experience, and accomplishments in web development, highlighting my expertise in server-side and client-side technologies, as well as various frameworks, to build robust and scalable solutions.</p>
     </div><!-- End Section Title -->
 
     <div class="container">
