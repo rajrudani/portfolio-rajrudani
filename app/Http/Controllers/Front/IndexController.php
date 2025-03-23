@@ -48,7 +48,7 @@ class IndexController extends Controller
             return response()->download($filePath, $newFileName);
         }
 
-        return abort(404, 'File not found.');
+        return abort(404, 'File not found. ');
     }
 
     public function getSkills ()
