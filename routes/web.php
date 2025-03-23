@@ -6,10 +6,9 @@ use App\Http\Controllers\Front\IndexController;
 Route::get('/', function(){
     return redirect()->route('index');
 });
+
 Route::prefix('raj-rudani')->group(function () {
-    Route::get('/', [IndexController::class, 'index'])->name('index');
-    Route::get('portfolio/{company}', [IndexController::class, 'viewPortfolio'])->name('view-portfolio');
+    Route::get('/',                           [IndexController::class, 'index'])->name('index');
+    Route::get('portfolio/{company}',         [IndexController::class, 'viewPortfolio'])->name('view-portfolio');
     Route::get('download-document/{docType}', [IndexController::class, 'downloadDocument'])->name('download-document');
 });
-
-

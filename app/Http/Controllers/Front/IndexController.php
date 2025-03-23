@@ -33,7 +33,7 @@ class IndexController extends Controller
 
     public function downloadDocument($docType)
     {
-        $basePath = public_path("assets/img/documents");
+        $basePath = public_path("assets/documents");
         if ($docType == 'cv') {
             $filePath = $basePath . '/CV.pdf';
             $newFileName = 'Raj_Rudani_CV_PHP_Developer.pdf';
